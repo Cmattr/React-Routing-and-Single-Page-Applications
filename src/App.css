@@ -1,0 +1,69 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  flex-direction: column;
+  align-items: stretch;
+  
+}
+
+h3{
+  margin: 0 0 10px 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: rgb(87, 87, 87);
+}
+
+li:hover{
+  background-color: rgb(192, 192, 192);
+}
+
+nav{
+  background-color: #e20000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: White;
+  border: black ridge 5px;
+  
+}
+
+nav a{
+  float: left;
+  display: block;
+  columns: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+nav a:hover{
+  background-color: #ffffff;
+  columns: black;
+  color: black;
+}
+
+nav a:active{
+  background-color: lightgreen;
+  columns: white;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
